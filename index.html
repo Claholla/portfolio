@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Clay Holland Portfolio</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +26,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                         <li>
-                            <a href="#resume">Resume</a>
+                            <a href="./assets/images/Clay Holland Resume 2021.pdf">Resume</a>
                         </li>
                     </ul>
                 </nav>
@@ -34,106 +35,98 @@
         <figure>
             <img src="./assets/images/backdrop.jpg" alt="Meteor shower graphic">
             <h2>
-                Meteor Shower
+                Web Development Portfolio
             </h2>
         </figure>
-    
-        <article class="container article-1">
-            <h3 id="about-me">
+        
+        <div class="container">
+        <article class="row article-1">
+            <h3 id="about-me" class="col-12 col-sm-3">
                 About<br>Me
             </h3>
-            <section>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis nunc sit amet malesuada consectetur. Vivamus volutpat leo nec egestas sollicitudin. Nam ornare tellus nunc, ac auctor metus venenatis consequat. Nunc vulputate at est eget volutpat. In congue et lorem sit amet dapibus. Pellentesque magna odio, vestibulum eu maximus et, consequat in risus. Praesent blandit non ante et tincidunt. Etiam posuere nulla a lectus vestibulum, sed lacinia neque dictum. Morbi ut pulvinar quam. Quisque at augue sit amet dolor condimentum viverra.
-                    <br><br>
-                    Duis scelerisque magna velit, ut scelerisque ligula malesuada in. In ligula felis, tempor ac dolor id, molestie accumsan purus. Pellentesque tempor, quam ut condimentum consequat, arcu nunc ornare enim, sit amet auctor diam ante vitae ante. Fusce eget elit tellus. Nulla a lobortis nunc, lobortis pharetra ipsum. Donec non nisl augue. In ac porta ante, eu pellentesque quam. Duis consectetur tortor ut porta vestibulum. Suspendisse in consectetur nunc.
-                </p>
+            <section class="col-9">
+                <div class="row gx-4">
+                    <img class="col-12 col-sm-3 selfie" src="assets/images/profilephoto-2021.png" alt="A photo of me!">
+                    <p class="col-12 col-sm-6">
+                        I am a Saint Paul based student Web Developer with multiple years of experience working in technical fields and I have a deep interest in learning and applying computer science. I have client and customer-facing experience and I have several years of leadership experience spanning customer service jobs as well as jobs where I was working creatively.
+                        <br><br>
+                        My interests include video editing, programming for games, playing guitar, and baking.
+                    </p>
+                </div>
             </section>
         </article>
             
             <br><br>
 
-        <article id="work" class="container">
-            <h3>
+        <article id="work" class="row">
+            <h3 class="col-12 col-sm-3">
                 Work
             </h3>
-            <section class="images">
-                        <a href="#Surf-report">
-                            <img src="./assets/images/tree-icecube.jpeg" alt="A tree frozen in an ice cube" class="arrayhero">
+            <section class="col-12 col-sm-9">
+            <div class="images">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="https://claholla.github.io/Food-Finders/">
+                            <img src="./assets/images/food-finders.png" alt="Food Finders application screenshot" class="arrayhero">
                         </a>
-                        <div class="title">
-                            <h4>
-                                Surf Report
-                            </h4>
-                            <p>
-                                MERN Stack
-                            </p>
-                        </div>
-                    <div>
-                        <a href="#LED-wall">
-                            <img src="./assets/images/abstract-triangle.jpeg" alt="An illuminated triangular tunnel" class="imgarray">
-                        </a>
-                        <div class="title">
-                            <h4>
-                                LED Wall
-                            </h4>
-                            <p>
-                                Node/IoT
-                            </p>
-                        </div>
                     </div>
-                    <div>
-                        <a href="#Calculator">
-                            <img src="./assets/images/inkdrop.jpeg" alt="Colorful ink falling through water" class="imgarray">
-                        </a>
-                        <div class="title">
-                            <h4>
-                                Calculator
-                            </h4>
-                            <p>
-                                React/JavaScript/CSS
-                            </p>
-                        </div>
+                    <div class="title col-12 col-md-6">
+                        <h4>
+                            Food Finders
+                        </h4>
+                        <p>
+                            HTML/CSS/JavaScript
+                            <br>
+                            <a href="https://github.com/Claholla/Food-Finders">GitHub Repository Link</a>
+                        </p>
                     </div>
-                    <div>
-                        <a href="#Pastel-puzzles">
-                            <img src="./assets/images/shadowed-2d-fractal.jpeg" alt="A 2d fractal of shaded trinangle shapes" class="imgarray">
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <a href="https://claholla.github.io/weather-dashboard/">
+                            <img src="./assets/images/weather-dashboard-screenshot.png" alt="Weather Dashboard application screenshot" class="imgarray">
                         </a>
-                        <div class="title">
-                            <h4>
-                                Pastel Puzzles
-                            </h4>
-                            <p>
-                                MERN Stack
-                            </p>
-                        </div>
                     </div>
-                    <div>
-                        <a href="#Run-buddy">
-                            <img src="./assets/images/zfighting-orb.jpeg" alt="A loose orb shape composed of swirling, shredded material" class="imgarray">
+                    <div class="title col-12 col-md-6">
+                        <h4>
+                            Weather Dashboard
+                        </h4>
+                        <p>
+                            HTML/CSS/JavaScript
+                            <br>
+                            <a href="https://github.com/Claholla/weather-dashboard">GitHub Repository Link</a>
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <a href="https://claholla.github.io/work-day-scheduler/">
+                            <img src="./assets/images/work-day-scheduler-screenshot.png" alt="Work Day Scheduler application screenshot" class="imgarray">
                         </a>
-                        <div class="title">
-                            <h4>
-                                Run Buddy
-                            </h4>
-                            <p>
-                                HTML/CSS
-                            </p>
-                        </div>
-                    </div>    
+                    </div>
+                    <div class="title col-12 col-md-6">
+                        <h4>
+                            Work Day Scheduler
+                        </h4>
+                        <p>
+                            HTML/CSS/JavaScript
+                            <br>
+                            <a href="https://github.com/Claholla/work-day-scheduler">GitHub Repository Link</a>
+                        </p>
+                    </div>
+                </div>   
+            </div> 
             </section>
         </article>
             
             <br><br>
 
-        <article class="container">
-            <h3 id="contact">
+        <article class="row">
+            <h3 id="contact" class="col-12 col-sm-3">
                 Contact<br>Me
             </h3>
-            <section>
+            <section class="col-12 col-sm-9">
                 <ul class="links contactlinks">
                     <li>
-                        <a href="#Phone">320.295.2863</a>
+                        <a href="tel:3202952863">320.295.2863</a>
                     </li>
                     <li>
                         <a href="mailto:claholla@gmail.com">claholla@gmail.com</a>
@@ -142,14 +135,12 @@
                         <a href="https://github.com/Claholla">GitHub</a>
                     </li>
                     <li>
-                        <a href="#Twitter">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="https://open.spotify.com/user/claholla?si=DalqWDtOSQOS6sGFlK_o-Q">Spotify</a>
+                        <a href="https://www.linkedin.com/in/clayholland/">LinkedIn</a>
                     </li>
                 </ul>
             </section>
         </article>
-
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="undefined" crossorigin="anonymous"></script>
     </body>
 </HTML>

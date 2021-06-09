@@ -49,7 +49,7 @@ header a {
 }
 
 .links li {
-    display: inline-flex;
+    display: inline;
     padding: 0px 8px;
     line-height: 1.5;
 }
@@ -85,18 +85,11 @@ figure img {
     max-width: 1920px;
 }
 /* These are the flexbox container that controls the left/right formatting of the remainder of the page. */
-.container {
-        display: flex;
-        flex-wrap: wrap;
-}
-
 article h3 {
-    flex: 1 1 20%;
     padding: 5px 40px;
 }
 
 article section {
-    flex: 1 1 70%;
     padding: 40px 60px;
     border-left: 4px solid var(--primary);
 }
@@ -112,7 +105,6 @@ h3 {
 article section p {
     line-height: 1.5;
     color: var(--secondary);
-    justify-content: baseline;
 }
 
 .article-1 {
@@ -123,40 +115,29 @@ article section p {
     color: var(--secondary);
     text-decoration: none;
     border-bottom: 3px solid var(--primary);
-    
-}
-/* Attempted use of CSS grid to control the formatting of the image array. */
-section .images {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns:auto;
 }
 
 .imgarray {
     border: 7px solid var(--secondary);
-    width: 50%;
-    grid-column-start: 3;
-    grid-column-end: 5;
+    width: 100%;
 }
 
 .arrayhero {
     border: 7px solid var(--secondary);
     width: 100%;
-    grid-column-start: 1;
-    grid-column-end: 2;
 }
 
 h4 {
     font-size: 2em;
     color: var(--primary);
     background-color: var(--secondary);
-    padding: 10px 30px 30px 20px;
+    padding: 10px 30px 40px 20px;
  }
   
  .title {
     position: relative;
     right: 20px;
-    bottom: 120px;
+    bottom: 130px;
     margin-right: 600px;
     margin-left: 20px;
     margin-top: 20px;
@@ -165,11 +146,22 @@ h4 {
  }
   
  .title p {
-    color: var(--primary);
+    color: var(--accent);
     z-index: 4;
     position: relative;
-    bottom: 28px;
+    bottom: 50px;
     left: 20px;
     font-size: 80%;
  }
  
+ .title a {
+     color: var(--primary);
+     position: relative;
+     bottom: 3px;
+ }
+
+ .selfie {
+     width: 100%;
+     height: 100%;
+     max-width: 400px;
+ }
