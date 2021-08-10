@@ -3,9 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>Clay Holland Portfolio</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
@@ -17,16 +19,16 @@
                 <nav class="links">
                     <ul>
                         <li>
-                            <a href="#about-me">About Me</a>
+                            <a href="#about-me" class="links">About Me</a>
                         </li>
                         <li>
-                            <a href="#work">Work</a>
+                            <a href="#work" class="links">Work</a>
                         </li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#contact" class="links">Contact</a>
                         </li>
                         <li>
-                            <a href="./assets/images/Clay Holland Resume 2021.pdf">Resume</a>
+                            <a href="./assets/images/Clay Holland Resume 2021.pdf" class="links">Resume</a>
                         </li>
                     </ul>
                 </nav>
@@ -39,38 +41,38 @@
             </h2>
         </figure>
         
-        <div class="container">
-        <article class="row article-1">
-            <h3 id="about-me" class="col-12 col-sm-3">
+        <div>
+        <article class="article-1 columns">
+            <div class="column is-1"></div>
+            <h3 id="about-me" class="column is-3">
                 About<br>Me
             </h3>
-            <section class="col-9">
-                <div class="row gx-4">
-                    <img class="col-12 col-sm-3 selfie" src="assets/images/profilephoto-2021.png" alt="A photo of me!">
-                    <p class="col-12 col-sm-6">
-                        I am a Saint Paul based student Web Developer with multiple years of experience working in technical fields and I have a deep interest in learning and applying computer science. I have client and customer-facing experience and I have several years of leadership experience spanning customer service jobs as well as jobs where I was working creatively.
+                <div class="column is-7">
+                    <img class="selfie" src="assets/images/profilephoto-2021.png" alt="A photo of me!">
+                    <p>
+                        I am a Saint Paul based student Web Developer with multiple years of experience working in technical fields. I have a deep interest in learning and applying computer science topics. I have client and customer-facing experience, and I have several years of leadership experience spanning customer service jobs as well as jobs working in a creative capacity.
                         <br><br>
-                        My interests include video editing, programming for games, playing guitar, and baking.
+                        My interests include video editing, coding for games, playing guitar, and baking.
                     </p>
                 </div>
-            </section>
+                <div class="column is-1"></div>
         </article>
             
             <br><br>
 
-        <article id="work" class="row">
-            <h3 class="col-12 col-sm-3">
+        <article id="work">
+            <h3 class="column">
                 Work
             </h3>
-            <section class="col-12 col-sm-9">
-            <div class="images">
-                <div class="row">
-                    <div class="col-12">
+            <section>
+            <div class="images column is-8">
+                <div>
+                    <div>
                         <a href="https://claholla.github.io/Food-Finders/">
                             <img src="./assets/images/food-finders.png" alt="Food Finders application screenshot" class="arrayhero">
                         </a>
                     </div>
-                    <div class="title col-12 col-md-6">
+                    <div class="title">
                         <h4>
                             Food Finders
                         </h4>
@@ -81,13 +83,13 @@
                         </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
+                <div>
+                    <div>
                         <a href="https://claholla.github.io/weather-dashboard/">
                             <img src="./assets/images/weather-dashboard-screenshot.png" alt="Weather Dashboard application screenshot" class="imgarray">
                         </a>
                     </div>
-                    <div class="title col-12 col-md-6">
+                    <div>
                         <h4>
                             Weather Dashboard
                         </h4>
@@ -97,12 +99,12 @@
                             <a href="https://github.com/Claholla/weather-dashboard">GitHub Repository Link</a>
                         </p>
                     </div>
-                    <div class="col-12">
+                    <div>
                         <a href="https://claholla.github.io/work-day-scheduler/">
                             <img src="./assets/images/work-day-scheduler-screenshot.png" alt="Work Day Scheduler application screenshot" class="imgarray">
                         </a>
                     </div>
-                    <div class="title col-12 col-md-6">
+                    <div>
                         <h4>
                             Work Day Scheduler
                         </h4>
@@ -141,6 +143,5 @@
             </section>
         </article>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="undefined" crossorigin="anonymous"></script>
     </body>
 </HTML>
