@@ -34,7 +34,6 @@ header {
     font-size: 3em;
     color: var(--secondary);
     padding: 10px 20px 10px 100px;
-    justify-self: flex-start;
     margin: 0px 0px 0px -7%;
     background: var(--primary);
     font-family: 'Playfair Display', serif;
@@ -94,17 +93,12 @@ figure img {
 }
 
 /* These are the flexbox container that controls the left/right formatting of the remainder of the page. */
-article h3 {
-    padding: 5px 40px;
-    font-family: 'Playfair Display', serif;
-}
-
 h3 {
+    font-family: 'Playfair Display', serif;
     font-size: 3em;
     color: var(--primary);
     line-height: 1.2;
     padding: 0px 20px 0px 110px;
-    border-right: 4px solid var(--primary);
 }
 
 article section p {
